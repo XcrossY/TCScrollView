@@ -1,0 +1,286 @@
+TTCScrollView
+v7
+r0
+t339302137.947743
+cCheck dependencies
+cProcessInfoPlistFile /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/Debug-iphonesimulator/TCScrollView.app/Info.plist TCScrollView-Info.plist
+cCompileXIB /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/MainWindow.xib
+cCompileXIB /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/TCScrollViewViewController.xib
+cProcessPCH /var/folders/ME/MErefvdQG1in+28gAyw1ak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TCScrollView_Prefix-ahmiezsjzkqbwhbbfxglouzeypno/TCScrollView_Prefix.pch.gch TCScrollView_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TCScrollView.build/Debug-iphonesimulator/TCScrollView.build/Objects-normal/i386/main.o /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TCScrollView.build/Debug-iphonesimulator/TCScrollView.build/Objects-normal/i386/TCScrollViewAppDelegate.o /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/Classes/TCScrollViewAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TCScrollView.build/Debug-iphonesimulator/TCScrollView.build/Objects-normal/i386/TCScrollViewViewController.o /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/Classes/TCScrollViewViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TCScrollView.build/Debug-iphonesimulator/TCScrollView.build/Objects-normal/i386/TCScrollView.o /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/Classes/Views/TCScrollView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/Debug-iphonesimulator/TCScrollView.app/TCScrollView normal i386
+cGenerateDSYMFile /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/Debug-iphonesimulator/TCScrollView.app.dSYM /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/Debug-iphonesimulator/TCScrollView.app/TCScrollView
+cTouch /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/Debug-iphonesimulator/TCScrollView.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004D5C9B4E0000000000000110
+t1297914702
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54CFFA00000000002999B0
+t1297403898
+s2726320
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54CFE5000000000029DA70
+t1297403877
+s2742896
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54CFB80000000000001466
+t1297403832
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5615B40000000000000AA1
+t1297487284
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5616030000000000766870
+t1297487363
+s7759984
+
+N/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/Classes/TCScrollViewAppDelegate.h
+c000000004E891ED500000000000001FA
+t1317609173
+s506
+i<UIKit/UIKit.h>
+
+N/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/Classes/TCScrollViewAppDelegate.m
+c000000004E891ED50000000000000AC0
+t1317609173
+s2752
+i"TCScrollViewAppDelegate.h"
+i"TCScrollViewViewController.h"
+
+N/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/Classes/TCScrollViewViewController.h
+c000000004E891ED500000000000000FA
+t1317609173
+s250
+i<UIKit/UIKit.h>
+
+N/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/Classes/TCScrollViewViewController.m
+c000000004E891ED500000000000005D2
+t1317609173
+s1490
+i"TCScrollViewViewController.h"
+
+N/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/Classes/Views/TCScrollView.h
+c000000004E891F7200000000000000D4
+t1317609330
+s212
+i<UIKit/UIKit.h>
+
+N/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/Classes/Views/TCScrollView.m
+c000000004E891F720000000000000256
+t1317609330
+s598
+i"TCScrollView.h"
+
+N/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/MainWindow.xib
+c000000004E891ED50000000000004E65
+t1317609173
+s20069
+
+N/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/TCScrollViewViewController.xib
+c000000004E891ED50000000000001A59
+t1317609173
+s6745
+
+N/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/TCScrollView_Prefix.pch
+c000000004E891ED500000000000000C1
+t1317609173
+s193
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/Debug-iphonesimulator/TCScrollView.app
+t1317609337
+s238
+
+N/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/Debug-iphonesimulator/TCScrollView.app.dSYM
+t1317609337
+s102
+
+N/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/Debug-iphonesimulator/TCScrollView.app/Info.plist
+t1317609335
+s611
+
+N/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/Debug-iphonesimulator/TCScrollView.app/MainWindow.nib
+t1317609335
+s1691
+
+N/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/Debug-iphonesimulator/TCScrollView.app/PkgInfo
+t1317609335
+s8
+
+N/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/Debug-iphonesimulator/TCScrollView.app/TCScrollView
+t1317609337
+s18360
+
+N/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/Debug-iphonesimulator/TCScrollView.app/TCScrollViewViewController.nib
+t1317609335
+s1269
+
+N/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/TCScrollView.build/Debug-iphonesimulator/TCScrollView.build/Objects-normal/i386/TCScrollView.LinkFileList
+c000000004E891F7700000000000002C1
+t1317609335
+s705
+
+N/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/TCScrollView.build/Debug-iphonesimulator/TCScrollView.build/Objects-normal/i386/TCScrollView.o
+t1317609337
+s37560
+
+N/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/TCScrollView.build/Debug-iphonesimulator/TCScrollView.build/Objects-normal/i386/TCScrollViewAppDelegate.o
+t1317609337
+s51664
+
+N/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/TCScrollView.build/Debug-iphonesimulator/TCScrollView.build/Objects-normal/i386/TCScrollViewViewController.o
+t1317609337
+s38116
+
+N/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/TCScrollView.build/Debug-iphonesimulator/TCScrollView.build/Objects-normal/i386/main.o
+t1317609337
+s6376
+
+N/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/main.m
+c000000004E891ED5000000000000016B
+t1317609173
+s363
+i<UIKit/UIKit.h>
+
+N/var/folders/ME/MErefvdQG1in+28gAyw1ak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TCScrollView_Prefix-ahmiezsjzkqbwhbbfxglouzeypno/TCScrollView_Prefix.pch.gch
+t1317609337
+s15814064
+
+NTCScrollView-Info.plist
+c000000004E891ED5000000000000038D
+t1317609173
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies339302135#339302135#0(0"0(0#1#0"8650045600#0"0#
+
+CCompileC build/TCScrollView.build/Debug-iphonesimulator/TCScrollView.build/Objects-normal/i386/TCScrollView.o /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/Classes/Views/TCScrollView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339302137.380383
+e339302137.472762
+r1
+xCompileC
+xbuild/TCScrollView.build/Debug-iphonesimulator/TCScrollView.build/Objects-normal/i386/TCScrollView.o
+x/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/Classes/Views/TCScrollView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@107"Compile /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/Classes/Views/TCScrollView.m339302137#339302137#0(0"0(0#0#99"/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/Classes/Views/TCScrollView.m8648236544#2396"    cd /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/TCScrollView.build/Debug-iphonesimulator/TCScrollView.build/TCScrollView-generated-files.hmap -I/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/TCScrollView.build/Debug-iphonesimulator/TCScrollView.build/TCScrollView-own-target-headers.hmap -I/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/TCScrollView.build/Debug-iphonesimulator/TCScrollView.build/TCScrollView-all-target-headers.hmap -iquote /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/TCScrollView.build/Debug-iphonesimulator/TCScrollView.build/TCScrollView-project-headers.hmap -F/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/Debug-iphonesimulator -I/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/Debug-iphonesimulator/include -I/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/TCScrollView.build/Debug-iphonesimulator/TCScrollView.build/DerivedSources/i386 -I/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/TCScrollView.build/Debug-iphonesimulator/TCScrollView.build/DerivedSources -include /var/folders/ME/MErefvdQG1in+28gAyw1ak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TCScrollView_Prefix-ahmiezsjzkqbwhbbfxglouzeypno/TCScrollView_Prefix.pch -c /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/Classes/Views/TCScrollView.m -o /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/TCScrollView.build/Debug-iphonesimulator/TCScrollView.build/Objects-normal/i386/TCScrollView.o0#
+
+CCompileC build/TCScrollView.build/Debug-iphonesimulator/TCScrollView.build/Objects-normal/i386/TCScrollViewAppDelegate.o /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/Classes/TCScrollViewAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339302137.242535
+e339302137.380264
+r1
+xCompileC
+xbuild/TCScrollView.build/Debug-iphonesimulator/TCScrollView.build/Objects-normal/i386/TCScrollViewAppDelegate.o
+x/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/Classes/TCScrollViewAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@112"Compile /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/Classes/TCScrollViewAppDelegate.m339302137#339302137#0(0"0(0#0#104"/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/Classes/TCScrollViewAppDelegate.m8649605568#2412"    cd /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/TCScrollView.build/Debug-iphonesimulator/TCScrollView.build/TCScrollView-generated-files.hmap -I/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/TCScrollView.build/Debug-iphonesimulator/TCScrollView.build/TCScrollView-own-target-headers.hmap -I/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/TCScrollView.build/Debug-iphonesimulator/TCScrollView.build/TCScrollView-all-target-headers.hmap -iquote /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/TCScrollView.build/Debug-iphonesimulator/TCScrollView.build/TCScrollView-project-headers.hmap -F/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/Debug-iphonesimulator -I/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/Debug-iphonesimulator/include -I/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/TCScrollView.build/Debug-iphonesimulator/TCScrollView.build/DerivedSources/i386 -I/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/TCScrollView.build/Debug-iphonesimulator/TCScrollView.build/DerivedSources -include /var/folders/ME/MErefvdQG1in+28gAyw1ak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TCScrollView_Prefix-ahmiezsjzkqbwhbbfxglouzeypno/TCScrollView_Prefix.pch -c /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/Classes/TCScrollViewAppDelegate.m -o /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/TCScrollView.build/Debug-iphonesimulator/TCScrollView.build/Objects-normal/i386/TCScrollViewAppDelegate.o0#
+
+CCompileC build/TCScrollView.build/Debug-iphonesimulator/TCScrollView.build/Objects-normal/i386/TCScrollViewViewController.o /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/Classes/TCScrollViewViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339302137.344357
+e339302137.429201
+r1
+xCompileC
+xbuild/TCScrollView.build/Debug-iphonesimulator/TCScrollView.build/Objects-normal/i386/TCScrollViewViewController.o
+x/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/Classes/TCScrollViewViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@115"Compile /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/Classes/TCScrollViewViewController.m339302137#339302137#0(0"0(0#0#107"/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/Classes/TCScrollViewViewController.m8646958944#2418"    cd /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/TCScrollView.build/Debug-iphonesimulator/TCScrollView.build/TCScrollView-generated-files.hmap -I/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/TCScrollView.build/Debug-iphonesimulator/TCScrollView.build/TCScrollView-own-target-headers.hmap -I/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/TCScrollView.build/Debug-iphonesimulator/TCScrollView.build/TCScrollView-all-target-headers.hmap -iquote /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/TCScrollView.build/Debug-iphonesimulator/TCScrollView.build/TCScrollView-project-headers.hmap -F/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/Debug-iphonesimulator -I/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/Debug-iphonesimulator/include -I/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/TCScrollView.build/Debug-iphonesimulator/TCScrollView.build/DerivedSources/i386 -I/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/TCScrollView.build/Debug-iphonesimulator/TCScrollView.build/DerivedSources -include /var/folders/ME/MErefvdQG1in+28gAyw1ak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TCScrollView_Prefix-ahmiezsjzkqbwhbbfxglouzeypno/TCScrollView_Prefix.pch -c /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/Classes/TCScrollViewViewController.m -o /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/TCScrollView.build/Debug-iphonesimulator/TCScrollView.build/Objects-normal/i386/TCScrollViewViewController.o0#
+
+CCompileC build/TCScrollView.build/Debug-iphonesimulator/TCScrollView.build/Objects-normal/i386/main.o /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339302137.240633
+e339302137.344248
+r1
+xCompileC
+xbuild/TCScrollView.build/Debug-iphonesimulator/TCScrollView.build/Objects-normal/i386/main.o
+x/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/main.m339302137#339302137#0(0"0(0#0#77"/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/main.m8649172032#2366"    cd /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/TCScrollView.build/Debug-iphonesimulator/TCScrollView.build/TCScrollView-generated-files.hmap -I/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/TCScrollView.build/Debug-iphonesimulator/TCScrollView.build/TCScrollView-own-target-headers.hmap -I/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/TCScrollView.build/Debug-iphonesimulator/TCScrollView.build/TCScrollView-all-target-headers.hmap -iquote /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/TCScrollView.build/Debug-iphonesimulator/TCScrollView.build/TCScrollView-project-headers.hmap -F/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/Debug-iphonesimulator -I/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/Debug-iphonesimulator/include -I/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/TCScrollView.build/Debug-iphonesimulator/TCScrollView.build/DerivedSources/i386 -I/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/TCScrollView.build/Debug-iphonesimulator/TCScrollView.build/DerivedSources -include /var/folders/ME/MErefvdQG1in+28gAyw1ak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TCScrollView_Prefix-ahmiezsjzkqbwhbbfxglouzeypno/TCScrollView_Prefix.pch -c /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/main.m -o /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/TCScrollView.build/Debug-iphonesimulator/TCScrollView.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/MainWindow.xib
+s339302135.245949
+e339302135.816623
+r1
+xCompileXIB
+x/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib339302135#339302135#0(0"0(0#0#85"/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/MainWindow.xib8648420256#671"    cd /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/Debug-iphonesimulator/TCScrollView.app/MainWindow.nib /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/TCScrollViewViewController.xib
+s339302135.247048
+e339302135.829289
+r1
+xCompileXIB
+x/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/TCScrollViewViewController.xib
+lSLF07#2@41"CompileXIB TCScrollViewViewController.xib339302135#339302135#0(0"0(0#0#101"/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/TCScrollViewViewController.xib8648306176#703"    cd /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/Debug-iphonesimulator/TCScrollView.app/TCScrollViewViewController.nib /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/TCScrollViewViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CGenerateDSYMFile /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/Debug-iphonesimulator/TCScrollView.app.dSYM /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/Debug-iphonesimulator/TCScrollView.app/TCScrollView
+s339302137.829325
+e339302137.925536
+r1
+xGenerateDSYMFile
+x/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/Debug-iphonesimulator/TCScrollView.app.dSYM
+x/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/Debug-iphonesimulator/TCScrollView.app/TCScrollView
+lSLF07#2@124"GenerateDSYMFile build/Debug-iphonesimulator/TCScrollView.app.dSYM build/Debug-iphonesimulator/TCScrollView.app/TCScrollView339302137#339302137#0(0"0(0#0#128"/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/Debug-iphonesimulator/TCScrollView.app/TCScrollView8603514592#494"    cd /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/Debug-iphonesimulator/TCScrollView.app/TCScrollView -o /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/Debug-iphonesimulator/TCScrollView.app.dSYM0#
+
+CLd /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/Debug-iphonesimulator/TCScrollView.app/TCScrollView normal i386
+s339302137.472943
+e339302137.829190
+r1
+xLd
+x/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/Debug-iphonesimulator/TCScrollView.app/TCScrollView
+xnormal
+xi386
+lSLF07#2@133"Link /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/Debug-iphonesimulator/TCScrollView.app/TCScrollView339302137#339302137#0(0"0(0#0#0"8647261600#1085"    cd /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/Debug-iphonesimulator -F/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/Debug-iphonesimulator -filelist /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/TCScrollView.build/Debug-iphonesimulator/TCScrollView.build/Objects-normal/i386/TCScrollView.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/Debug-iphonesimulator/TCScrollView.app/TCScrollView0#
+
+CProcessInfoPlistFile /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/Debug-iphonesimulator/TCScrollView.app/Info.plist TCScrollView-Info.plist
+s339302135.240381
+e339302135.245821
+r1
+xProcessInfoPlistFile
+x/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/Debug-iphonesimulator/TCScrollView.app/Info.plist
+xTCScrollView-Info.plist
+lSLF07#2@31"Process TCScrollView-Info.plist339302135#339302135#0(0"0(0#0#94"/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/TCScrollView-Info.plist8649217600#590"    cd /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility TCScrollView-Info.plist -genpkginfo /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/Debug-iphonesimulator/TCScrollView.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/Debug-iphonesimulator/TCScrollView.app/Info.plist0#
+
+CProcessPCH /var/folders/ME/MErefvdQG1in+28gAyw1ak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TCScrollView_Prefix-ahmiezsjzkqbwhbbfxglouzeypno/TCScrollView_Prefix.pch.gch TCScrollView_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s339302135.829419
+e339302137.240179
+r1
+xProcessPCH
+x/var/folders/ME/MErefvdQG1in+28gAyw1ak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TCScrollView_Prefix-ahmiezsjzkqbwhbbfxglouzeypno/TCScrollView_Prefix.pch.gch
+xTCScrollView_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@34"Precompile TCScrollView_Prefix.pch339302135#339302137#0(0"0(0#0#94"/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/TCScrollView_Prefix.pch8650324384#2221"    cd /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/TCScrollView.build/Debug-iphonesimulator/TCScrollView.build/TCScrollView-generated-files.hmap -I/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/TCScrollView.build/Debug-iphonesimulator/TCScrollView.build/TCScrollView-own-target-headers.hmap -I/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/TCScrollView.build/Debug-iphonesimulator/TCScrollView.build/TCScrollView-all-target-headers.hmap -iquote /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/TCScrollView.build/Debug-iphonesimulator/TCScrollView.build/TCScrollView-project-headers.hmap -F/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/Debug-iphonesimulator -I/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/Debug-iphonesimulator/include -I/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/TCScrollView.build/Debug-iphonesimulator/TCScrollView.build/DerivedSources/i386 -I/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/TCScrollView.build/Debug-iphonesimulator/TCScrollView.build/DerivedSources -c /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/TCScrollView_Prefix.pch -o /var/folders/ME/MErefvdQG1in+28gAyw1ak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TCScrollView_Prefix-ahmiezsjzkqbwhbbfxglouzeypno/TCScrollView_Prefix.pch.gch0#
+
+CTouch /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/Debug-iphonesimulator/TCScrollView.app
+s339302137.925835
+e339302137.947673
+r1
+xTouch
+x/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/Debug-iphonesimulator/TCScrollView.app
+lSLF07#2@121"Touch /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/Debug-iphonesimulator/TCScrollView.app339302137#339302137#0(0"0(0#0#0"8645990784#347"    cd /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/build/Debug-iphonesimulator/TCScrollView.app0#
+

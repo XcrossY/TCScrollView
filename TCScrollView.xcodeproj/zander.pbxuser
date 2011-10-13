@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* TCScrollViewAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {972, 697}}";
+			sepNavSelRange = "{496, 0}";
+			sepNavVisRange = "{0, 577}";
+		};
+	};
+	1D3623250D0F684500981E51 /* TCScrollViewAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1040}}";
+			sepNavSelRange = "{895, 0}";
+			sepNavVisRange = "{313, 1158}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* TCScrollView */ = {
+		activeExec = 0;
+		executables = (
+			CE7C83891439565500347834 /* TCScrollView */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = CE7C83891439565500347834 /* TCScrollView */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* TCScrollView */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* TCScrollView */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = CE7C838E1439567400347834 /* Code sense */;
+		executables = (
+			CE7C83891439565500347834 /* TCScrollView */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					794,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.XCSCMDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					770,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_SCM_ColumnID,
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 340229842;
+			PBXWorkspaceStateSaveDate = 340229842;
+		};
+		perUserProjectItems = {
+			CE17767F1444E1D90038EE0F /* PBXTextBookmark */ = CE17767F1444E1D90038EE0F /* PBXTextBookmark */;
+			CE1776EB144550EA0038EE0F /* PBXTextBookmark */ = CE1776EB144550EA0038EE0F /* PBXTextBookmark */;
+			CE1776EE144550EA0038EE0F /* PBXTextBookmark */ = CE1776EE144550EA0038EE0F /* PBXTextBookmark */;
+			CE1777961447728B0038EE0F /* PBXTextBookmark */ = CE1777961447728B0038EE0F /* PBXTextBookmark */;
+			CE17779D1447731B0038EE0F /* PBXTextBookmark */ = CE17779D1447731B0038EE0F /* PBXTextBookmark */;
+			CE1777B0144774750038EE0F /* PBXTextBookmark */ = CE1777B0144774750038EE0F /* PBXTextBookmark */;
+			CE1777BA144775510038EE0F /* PBXTextBookmark */ = CE1777BA144775510038EE0F /* PBXTextBookmark */;
+			CE8970F41447796800F6D89F /* PBXTextBookmark */ = CE8970F41447796800F6D89F /* PBXTextBookmark */;
+			CE97D7D414398874009F1B78 /* PBXTextBookmark */ = CE97D7D414398874009F1B78 /* PBXTextBookmark */;
+		};
+		sourceControlManager = CE7C838D1439567400347834 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {977, 722}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 363}";
+		};
+	};
+	32CA4F630368D1EE00C91783 /* TCScrollView_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {972, 720}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 193}";
+		};
+	};
+	CE1776771444DED20038EE0F /* TCScrollView.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = TCScrollView.m;
+		path = "/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/Classes/Views/TCScrollView.m";
+		sourceTree = "<absolute>";
+	};
+	CE17767F1444E1D90038EE0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CE1776771444DED20038EE0F /* TCScrollView.m */;
+		rLen = 0;
+		rLoc = 52;
+		rType = 1;
+	};
+	CE1776EB144550EA0038EE0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* TCScrollView_Prefix.pch */;
+		name = "TCScrollView_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 193;
+		vrLoc = 0;
+	};
+	CE1776EE144550EA0038EE0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CE7C839A1439576E00347834 /* TCLabelSwitchView.h */;
+		name = "TCLabelSwitchView.h: 23";
+		rLen = 0;
+		rLoc = 465;
+		rType = 0;
+		vrLen = 473;
+		vrLoc = 0;
+	};
+	CE17774014476F590038EE0F /* TCScrollViewAppDelegate.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = TCScrollViewAppDelegate.m;
+		path = "/Users/Zander/github/Custom-iOS-UIScrollView/TCScrollView/TCScrollView/Classes/TCScrollViewAppDelegate.m";
+		sourceTree = "<absolute>";
+	};
+	CE1777961447728B0038EE0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* TCScrollViewAppDelegate.h */;
+		name = "TCScrollViewAppDelegate.h: 20";
+		rLen = 0;
+		rLoc = 496;
+		rType = 0;
+		vrLen = 577;
+		vrLoc = 0;
+	};
+	CE17779D1447731B0038EE0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CE17774014476F590038EE0F /* TCScrollViewAppDelegate.m */;
+		rLen = 0;
+		rLoc = 28;
+		rType = 1;
+	};
+	CE1777B0144774750038EE0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* TCScrollViewAppDelegate.m */;
+		name = "TCScrollViewAppDelegate.m: 32";
+		rLen = 0;
+		rLoc = 838;
+		rType = 0;
+		vrLen = 2173;
+		vrLoc = 223;
+	};
+	CE1777B4144775410038EE0F /* TCScrollViewViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {972, 745}}";
+			sepNavSelRange = "{905, 0}";
+			sepNavVisRange = "{0, 905}";
+		};
+	};
+	CE1777B5144775410038EE0F /* TCScrollViewViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {972, 2756}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 2332}";
+		};
+	};
+	CE1777BA144775510038EE0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CE7C839B1439576E00347834 /* TCLabelSwitchView.m */;
+		name = "TCLabelSwitchView.m: 17";
+		rLen = 0;
+		rLoc = 303;
+		rType = 0;
+		vrLen = 1307;
+		vrLoc = 0;
+	};
+	CE7C83891439565500347834 /* TCScrollView */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = TCScrollView;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	CE7C838D1439567400347834 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	CE7C838E1439567400347834 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	CE7C8391143956F200347834 /* TCScrollView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {972, 745}}";
+			sepNavSelRange = "{652, 0}";
+			sepNavVisRange = "{0, 724}";
+		};
+	};
+	CE7C8392143956F200347834 /* TCScrollView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {972, 745}}";
+			sepNavSelRange = "{1344, 0}";
+			sepNavVisRange = "{0, 1575}";
+		};
+	};
+	CE7C839A1439576E00347834 /* TCLabelSwitchView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {972, 720}}";
+			sepNavSelRange = "{465, 0}";
+			sepNavVisRange = "{0, 473}";
+		};
+	};
+	CE7C839B1439576E00347834 /* TCLabelSwitchView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {972, 697}}";
+			sepNavSelRange = "{303, 0}";
+			sepNavVisRange = "{0, 1307}";
+		};
+	};
+	CE8970F41447796800F6D89F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CE7C8392143956F200347834 /* TCScrollView.m */;
+		name = "TCScrollView.m: 41";
+		rLen = 0;
+		rLoc = 1344;
+		rType = 0;
+		vrLen = 1575;
+		vrLoc = 0;
+	};
+	CE97D7D414398874009F1B78 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 363;
+		vrLoc = 0;
+	};
+	CEEB9F581440EF8A00E8BFF4 /* TCBackgroundView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {972, 745}}";
+			sepNavSelRange = "{194, 0}";
+			sepNavVisRange = "{0, 277}";
+		};
+	};
+	CEEB9F591440EF8A00E8BFF4 /* TCBackgroundView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {972, 745}}";
+			sepNavSelRange = "{417, 0}";
+			sepNavVisRange = "{0, 423}";
+		};
+	};
+	CEEBA02E14410E8500E8BFF4 /* TCState.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {972, 745}}";
+			sepNavSelRange = "{527, 0}";
+			sepNavVisRange = "{0, 569}";
+		};
+	};
+	CEEBA02F14410E8500E8BFF4 /* TCState.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {972, 845}}";
+			sepNavSelRange = "{987, 0}";
+			sepNavVisRange = "{71, 2109}";
+		};
+	};
+}

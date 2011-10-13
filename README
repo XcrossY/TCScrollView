@@ -1,0 +1,4 @@
+A custom UIScrollView listing the 50 states of the USA. Requested as a demo for a job application. 
+
+Uses MVC paradigm: 
+	TCScrollViewViewController is the logic center between TCScrollView and TCState. TCScrollViewViewController calculates the position of TCScrollView's bounds, and messages TCScrollView to load and unload the appropriate TCLabelSwitches. The data for these TCLabelSwitches comes from TCState via the view controller. When a TCLabelSwitch is unloaded from the view, if any changes have been made to the corresponding model, TCScrollViewViewController messages TCState to modify the model, which the view controller retains. 
