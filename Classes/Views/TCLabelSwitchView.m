@@ -13,6 +13,8 @@
 @synthesize label = _label;
 @synthesize onoff = _onoff;
 
+static const CGFloat kFontSize = 15.0f;
+
 -(void)dealloc {
     self.label = nil;
     self.onoff = nil;
@@ -31,6 +33,7 @@
         [self.label setBackgroundColor:[UIColor clearColor]];
         self.label.text = state.name;
         self.label.textAlignment = UITextAlignmentCenter;
+        self.label.font = [UIFont systemFontOfSize:kFontSize];
         [self addSubview:self.label];
         
         self.onoff      = [[UISwitch alloc]initWithFrame:

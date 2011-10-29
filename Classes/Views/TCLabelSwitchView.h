@@ -19,7 +19,6 @@
 
 -(id)initWithFrame:(CGRect)frame
         andTCState:(TCState *)state;
-
 -(BOOL)switchState; 
 
 @end

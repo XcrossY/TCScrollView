@@ -44,7 +44,7 @@ static const int        kTotalDisplayedLabelSwitch = 3;
 
 -(id)init {
     if (self = [super init]) {
-        self.informationArray = [TCState getAll50States];
+        self.informationArray = [TCState arrayWithAll50States];
         self.displayedArray = [NSMutableArray arrayWithCapacity:[self.informationArray count]];
         self.backgroundView = [[TCBackgroundView alloc]initWithFrame:
                                CGRectMake(0.0f, 0.0f, kScreenWidth, kScreenHeight)];
@@ -60,7 +60,7 @@ static const int        kTotalDisplayedLabelSwitch = 3;
         for (int i = 0; i < initialContent; i++) {
             TCLabelSwitchView *labelSwitch = 
             [self.scrollView addLabelSwitch:[self.informationArray objectAtIndex:i]
-                                 atPosition:[[NSNumber alloc]initWithInt:i]];
+                                 atPosition:[NSNumber numberWithInt:i]];
             [self.displayedArray addObject:labelSwitch];
         }
         self.previousPosition = 0;
@@ -81,9 +81,8 @@ static const int        kTotalDisplayedLabelSwitch = 3;
         return;
     }
     self.previousPosition = [NSNumber numberWithInt:position];
-    NSLog(@"Position: %i", position);
-    
-    int loadBuffer   = 3;
+       
+    int loadBuffer = 3;
     //load/unload next LabelSwitch if needed
     NSNumber *positionToAdd = [NSNumber numberWithInt:position+loadBuffer];
     if ([positionToAdd intValue] < [self.informationArray count]) {
@@ -138,17 +137,19 @@ static const int        kTotalDisplayedLabelSwitch = 3;
 -(void)removeLabelSwitchAtPosition:(NSNumber *)number {
     TCLabelSwitchView *labelSwitch = [self getDisplayedLabelSwitchAtPosition:number];
     if (labelSwitch) {
-            [self.scrollView removeLabelSwitch:labelSwitch
-                                    atPosition:number];
-            [self.displayedArray removeObject:labelSwitch];
-            
-            //record state of UISwitch
-            TCState *stateFromView = [[TCState alloc]initWithName:labelSwitch.label.text];
-            if ([labelSwitch switchState]) {
-                [stateFromView switchStateTo:[NSNumber numberWithInt:1]];
-            }
-            [self.informationArray replaceObjectAtIndex:[number intValue]
+        [self.scrollView removeLabelSwitch:labelSwitch
+                                atPosition:number];
+        [self.displayedArray removeObject:labelSwitch];
+        
+        //record state of UISwitch
+        TCState *stateFromView = [[TCState alloc]initWithName:labelSwitch.label.text];
+        if ([labelSwitch switchState]) {
+            [stateFromView switchStateTo:[NSNumber numberWithInt:1]];
+        }
+        //replace with updated TCState
+        [self.informationArray replaceObjectAtIndex:[number intValue]
                                              withObject:stateFromView];
+        [stateFromView release];
     }
 }
 
@@ -158,7 +159,8 @@ static const int        kTotalDisplayedLabelSwitch = 3;
     //Because of NSMutableArray mem management and shifting array indices,
     //create consolidatedArray such that we can query each object in the array
     //without segfaulting by accidentally searching outside _displayedArrays bounds
-    NSArray *consolidatedArray = [[NSArray alloc]initWithArray:self.displayedArray];
+   // NSArray *consolidatedArray = [[NSArray alloc]initWithArray:self.displayedArray];
+    NSArray *consolidatedArray = [NSArray arrayWithArray:self.displayedArray];
     
     for (int i=0; i<[consolidatedArray count]; i++) {       
         labelSwitch = [consolidatedArray objectAtIndex:i];
@@ -178,14 +180,6 @@ static const int        kTotalDisplayedLabelSwitch = 3;
     return scrollView.bounds.origin.x / kLabelSwitchWidth;
 }
 
-//As NSMutableArray is slippery, this creates full array with placeholders, such
-//that we can keep track of where each LabelSwitch belongs, ie. always has enough slots
--(void)createDisplayArray {
-    self.displayedArray = [NSMutableArray arrayWithCapacity:[self.informationArray count]];
-    for (int i=0; i<[self.informationArray count]; i++) {
-        [self.displayedArray addObject:[NSNumber numberWithInt:4]];
-    }
-}
 
 #pragma mark -
 #pragma mark Memory

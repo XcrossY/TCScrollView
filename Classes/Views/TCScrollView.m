@@ -38,14 +38,12 @@ static const CGFloat    kLabelSwitchOffsetX = 15.0f;
                                                                   andTCState:state];
     [self addSubview:labelSwitch];
     [labelSwitch release];
-    NSLog(@"added at %i", [number intValue]);
     return labelSwitch;
 }
 
 -(void)removeLabelSwitch:(TCLabelSwitchView *)labelSwitch
               atPosition:(NSNumber *)number {
     [labelSwitch removeFromSuperview];
-    NSLog(@"removed at %i", [number intValue]);
 }
 
 
